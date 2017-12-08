@@ -38,6 +38,6 @@ void loop(void)
   // After we got the temperatures, we can print them here.
   // We use the function ByIndex, and as an example get the temperature from the first sensor only.
   //Serial.print("Temperature for the device 1 (index 0) is: ");
-  Serial.println(sensors.getTempFByIndex(0));  
+  Serial.println(sensors.getTempCByIndex(0));  
   delay(1000);
 }

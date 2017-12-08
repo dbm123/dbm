@@ -8,7 +8,7 @@
 
 //Def
 #define myPeriodic 15 //in sec | Thingspeak pub is 15sec
-#define ONE_WIRE_BUS 2  // DS18B20 on arduino pin2 corresponds to D4 on physical board
+#define ONE_WIRE_BUS D5  // DS18B20 on arduino pin2 corresponds to D4 on physical board
 //#define mySSR 0  // Solid State Relay on pin 0
 
 OneWire oneWire(ONE_WIRE_BUS);
@@ -48,7 +48,7 @@ void loop() {
 
 void connectWifi()
 {
-  Serial.print("Connecting to "+*MY_SSID);
+  Serial.println("Connecting to "+*MY_SSID);
   WiFi.begin(MY_SSID, MY_PWD);
   while (WiFi.status() != WL_CONNECTED) {
   delay(1000);
