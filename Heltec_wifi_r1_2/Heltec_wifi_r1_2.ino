@@ -22,7 +22,7 @@ Adafruit_SSD1306 display(OLED_RESET);
 
 char oneline[LINELENGTH];
 
-char lines[NUMLINES][LINELENGTH] = {};
+char lines[NUMLINES][LINELENGTH] = {};  // numbered [0]...[3]
 
 int curline = FIRSTLINE; // line FIRSTLINE to LASTLINES
 boolean firsttime = true;

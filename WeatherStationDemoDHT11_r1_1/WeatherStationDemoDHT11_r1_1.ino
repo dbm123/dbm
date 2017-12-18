@@ -43,7 +43,7 @@ See more at http://blog.squix.ch
 // for setup instructions
 
 // WIFI
-const char* WIFI_SSID = "lab-i5";
+const char* WIFI_SSID = "lab-i5-5GHz";
 const char* WIFI_PWD = "a1b1c1d1e1";
 
 
