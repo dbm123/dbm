@@ -3,6 +3,7 @@
 DBM Dec 2 2017
 Adapted from all sorts of sources
 
+DBM Nov 18 2020 - works with Heltec wifi kit 8
 *********************************************************************/
 
 #include <SPI.h>
@@ -120,4 +121,3 @@ void loop() {
   scanWifi();
   delay(2000); 
 }
-
